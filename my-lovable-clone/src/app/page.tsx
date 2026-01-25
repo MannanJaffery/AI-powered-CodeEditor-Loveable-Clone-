@@ -4,7 +4,13 @@ import Home from "<@>/components/home";
 
 const Root = () => {
   return (
-<Home />
+    <>
+      <div 
+        className="min-h-screen"
+      >
+        <Home />
+      </div>
+    </>
   );
 };
 
